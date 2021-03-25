@@ -265,7 +265,7 @@ namespace GSB
         // remlir les zones et et dateHeure
         private void remplirZones()
         {
-            lblPraticien.Text= "0";
+            lblPraticien.Text= "0000";
         }
         #endregion
 
