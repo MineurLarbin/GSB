@@ -265,7 +265,9 @@ namespace GSB
         // remlir les zones et et dateHeure
         private void remplirZones()
         {
-            lblPraticien.Text= "0000";
+            Visite uneVisite = (Visite)dgvVisites.SelectedRows[0].Cells[0].Value;
+            lblPraticien.Text= uneVisite.LePraticien.NomPrenom;
+            lblDateHeure.Text = uneVisite.DateEtHeure.ToString();
         }
         #endregion
 
