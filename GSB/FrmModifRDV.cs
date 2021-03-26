@@ -257,7 +257,7 @@ namespace GSB
             // adapter la hauteur du datagridView
 
 
-            if (dgvVisites.Height > 800) dgvVisites.Height = 800;
+            if (dgvVisites.Height > 800) dgvVisites.Height = 8000;
 
         }
 
