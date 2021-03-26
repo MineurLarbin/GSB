@@ -268,8 +268,7 @@ namespace GSB
             Visite uneVisite = (Visite)dgvVisites.SelectedRows[0].Cells[0].Value;
             lblPraticien.Text= uneVisite.LePraticien.NomPrenom;
             lblDateHeure.Text = uneVisite.DateEtHeure.ToString();
-            lblDateHeure.Text = "tset";
-        }
+            }
         #endregion
 
         
