@@ -40,7 +40,7 @@ namespace GSB
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.brnValider = new System.Windows.Forms.Button();
+            this.btnValider = new System.Windows.Forms.Button();
             this.lbxMedicaments = new System.Windows.Forms.ListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -56,7 +56,7 @@ namespace GSB
             // 
             this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.brnValider);
+            this.panel1.Controls.Add(this.btnValider);
             this.panel1.Controls.Add(this.lbxMedicaments);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 102);
@@ -163,16 +163,16 @@ namespace GSB
             this.label2.TabIndex = 0;
             this.label2.Text = "Famille";
             // 
-            // brnValider
+            // btnValider
             // 
-            this.brnValider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(193)))), ((int)(((byte)(28)))));
-            this.brnValider.Font = new System.Drawing.Font("Arial", 12F);
-            this.brnValider.Location = new System.Drawing.Point(406, 3);
-            this.brnValider.Name = "brnValider";
-            this.brnValider.Size = new System.Drawing.Size(110, 31);
-            this.brnValider.TabIndex = 2;
-            this.brnValider.Text = "Rechercher";
-            this.brnValider.UseVisualStyleBackColor = false;
+            this.btnValider.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(193)))), ((int)(((byte)(28)))));
+            this.btnValider.Font = new System.Drawing.Font("Arial", 12F);
+            this.btnValider.Location = new System.Drawing.Point(406, 3);
+            this.btnValider.Name = "btnValider";
+            this.btnValider.Size = new System.Drawing.Size(110, 31);
+            this.btnValider.TabIndex = 2;
+            this.btnValider.Text = "Rechercher";
+            this.btnValider.UseVisualStyleBackColor = false;
             // 
             // lbxMedicaments
             // 
@@ -218,7 +218,7 @@ namespace GSB
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button brnValider;
+        private System.Windows.Forms.Button btnValider;
         private System.Windows.Forms.ListBox lbxMedicaments;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel3;
